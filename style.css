@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+
+body {
+  background: #f8fafc;
+  color: rgb(3, 3, 3);
+  line-height: 1.6;
+}
+
+header {
+  background: #948787;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 20px (rgba(rgb(6, 6, 6)));
+
+}
+
+h1{
+    font-size: 35px;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #2563eb;
+}
+
+/*Hero*/
+.hero {
+  background: #f1f5f9;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 750px;
+  margin: auto;
+  color: #6b7280;
+}
+
+/*Section*/
+section {
+  padding: 80px 90px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+section h2::after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background: #97a1b5;
+  display: block;
+  margin-top: 8px;
+}
+
+div{
+
+}
+
+/*Skills*/
+#skills ul {
+  list-style: none;
+}
+
+#skills li {
+  background: #ffffff;
+  display: inline-block;
+  padding: 10px 18px;
+  margin: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+#skills li:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+    background: #948787;
+    padding: 80px 90px;
+
+}
+
+footer h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+footer h2::after {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background: #767c88;
+  display: flex;
+  margin-top: 9px;
+}
